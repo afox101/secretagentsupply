@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Helvetica;
+  font-size: 18px;
+  width: 960px;
+}
+
+header {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  color: white;
+  font-size: 1rem;
+  min-height: 1.5rem;
+
+}
+
+header.span,
+header.logo {
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+
+.logo {
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/banner.jpeg");
+  width: 100%;
+  height: 25rem;
+}
+
+.featured {
+  background-color: black;
+  width: 20rem;
+  color: white;
+  margin: 9rem;
+  padding: 2rem 3rem;
+}
+
+.featured h4 {
+  font-weight: bold;
+  font-size: 1rem;
+  padding-bottom: .25rem;
+}
+
+.featured h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: firebrick;
+  padding: .75rem;
+  color: white;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.products p {
+  background-color: black;
+  color: white;
+  align-items: center;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.pen,
+.watch,
+.glasses {
+  border: 4px solid black;
+  width: 30%
+}
+
+.pen img,
+.watch img,
+.glasses img {
+  height: 9rem;
+  padding: 2rem;
+  max-width: 8rem;
+
+}
+
+.glasses img {
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.locationhead,
+.hourshead {
+  display: flex;
+  align-items: flex-start;
+  background-color: black;
+  color: white;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
